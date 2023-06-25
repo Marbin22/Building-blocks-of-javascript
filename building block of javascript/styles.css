@@ -1,0 +1,40 @@
+body{
+    background-color: coral;/*gives the whole page color*/
+}
+#container {/*this container holds all the content of the page, text, button */
+    height: 500px;
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+h1 {
+    font-size: 60px;
+    color: greenyellow;
+}
+#btn {/* these are the styles for the button like color and size*/
+  background-color: cyan;
+  border-radius: 10px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+  color: black;
+  margin: 10px;
+}
+#status{/*this makes the status more notable*/
+    font-size: 50px;
+}
+.rules {
+    font-size: 20px;
+}
+#number1,#number2 {
+    background-color: yellow;
+
+}/* i decided to add color to the number and the total to better be able to tell the difference */
+#total {
+    background-color: chartreuse;
+}
+
+
